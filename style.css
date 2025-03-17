@@ -36,3 +36,7 @@ button {
 	outline: none;
 	cursor: pointer;
 }
+.tqt {
+	display: flex;
+	flex-direction: column;
+}
