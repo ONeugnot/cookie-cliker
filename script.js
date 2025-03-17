@@ -1,6 +1,7 @@
 const countText = document.getElementById("count");
 const btnClick = document.getElementById("btn-click");
 const newcount = document.querySelector(".new");
+const numberadd2 = document.querySelector(".numeradd");
 const btn = document.querySelector(".scnd-btn");
 
 function clickone() {
@@ -14,9 +15,9 @@ function clickone() {
 
 			btn.addEventListener("click", () => {
 				let res2 = 0;
-				res++;
-				newcount.textContent = res;
-				if (res > 100) {
+				res2++;
+				numberadd2.textContent = res2;
+				if (res2 > 100) {
 					anothorBtn.style.display = "flex";
 					scndBtn.disabled = true;
 				}
